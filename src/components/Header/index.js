@@ -2,7 +2,6 @@ import {Component} from 'react'
 
 import {Link} from 'react-router-dom'
 
-import {MdOutlineSearch} from 'react-icons/md'
 import Context from '../../context/Context'
 import './index.css'
 
@@ -37,7 +36,7 @@ class Header extends Component {
                           type="button"
                           onClick={onClickUserInput}
                         >
-                          <MdOutlineSearch />
+                          Search
                         </button>
                       </Link>
                     </div>

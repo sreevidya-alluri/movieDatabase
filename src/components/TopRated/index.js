@@ -71,7 +71,7 @@ class TopRated extends Component {
         ) : (
           <section className="section-container">
             <div className="popular-container ">
-              <p className="route-heading">Top-Rated Movies</p>
+              <h1 className="route-heading">Top Rated</h1>
               <div className="pagination">
                 <button
                   onClick={this.prevPage}

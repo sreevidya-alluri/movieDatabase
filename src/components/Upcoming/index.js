@@ -95,7 +95,7 @@ class Upcoming extends Component {
         ) : (
           <section className="section-container">
             <div className="popular-container ">
-              <p className="route-heading">UpComing Movies</p>
+              <h1 className="route-heading">UpComing</h1>
               <div className="pagination">
                 <button
                   onClick={this.prevPage}

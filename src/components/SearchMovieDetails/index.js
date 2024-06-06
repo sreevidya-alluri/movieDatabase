@@ -1,7 +1,6 @@
 import Loader from 'react-loader-spinner'
 
 import {Component} from 'react'
-import {BsArrowRightSquareFill} from 'react-icons/bs'
 import MovieCard from '../MovieCard'
 
 import Context from '../../context/Context'
@@ -30,7 +29,7 @@ class SearchMovieDetails extends Component {
                         className="next-page"
                         type="button"
                       >
-                        <BsArrowRightSquareFill />
+                        Next page
                       </button>
                     </p>
                     <ul className="movie-list-container">
